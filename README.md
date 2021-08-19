@@ -36,13 +36,13 @@ py -m pip install --upgrade pip setuptools wheel
 
 Para evitar erro : <b>error: invalid command 'bdist_wheel'</b>
 <br>
-Rodei antes : 
+- Rodei antes : 
 <br>
-          pip install wheel
+pip install wheel
 <br>
-Depois 
+- Depois 
 <br>
-          python setup.py sdist bdist_wheel 
+python setup.py sdist bdist_wheel 
 <br>
 <br>
 Após completar a instalação, verifique se as pastas abaixo foram adicionadas ao projeto:
