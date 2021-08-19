@@ -40,17 +40,17 @@ Para evitar erro : <b>error: invalid command 'bdist_wheel'</b>
 <br>
 pip install wheel
 <br>
+
 - Depois 
 <br>
 python setup.py sdist bdist_wheel 
 <br>
 <br>
-Após completar a instalação, verifique se as pastas abaixo foram adicionadas ao projeto:
-  - build
-  - dist
-  - images_processing.egg-info.
+Após completar a instalação, verifique se as pastas abaixo foram adicionadas ao projeto:<br>
+- build<br>
+- dist<br>
+- images_processing.egg-info.<br>
   
-
 ### Comandos para Publicar no Test Pypi
 
 python -m twine upload --repository-url https://test.pypi.org/legacy/ dist/*
