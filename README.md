@@ -1,4 +1,4 @@
-# Projeto _ Descomplicando a criação de pacotes de processamento de imagens em Python
+# Projeto Descomplicando a criação de pacotes de processamento de imagens em Python
 
 <h1>
     <img src="https://i.ibb.co/4fxm5bL/Descomplicando-a-cria-o-de-pacotes-de-processamento-de-imagens-em-Python.jpg" border="0">
@@ -8,15 +8,16 @@ Neste projeto sera criado o primeiro pacote de processamento de imagens em Pytho
  <br>
 Assim  poderá ser reutilizado facilmente e compartilhá-lo com outras pessoas. 
 <br>
+Projeto disponibilizado pela ***Digital Innovation One*** 
 
 ### O pacote "image-processing-test" é usado para::
 
-Módulo "Processing":<br>
+Módulo "Processing" <br>
 - Correspondência de histograma<br>
 - Similaridade estrutural<br>
 - Redimensionar imagem<br>
-<br>
-Módulo "Utils":<br>
+
+Módulo "Utils" <br>
 - Leia a imagem<br>
 - Salvar imagem<br>
 - Plotar imagem<br>
@@ -37,11 +38,11 @@ Para evitar erro : <b>error: invalid command 'bdist_wheel'</b>
 <br>
 Rodei antes : 
 <br>
-pip install wheel
+          pip install wheel
 <br>
 Depois 
 <br>
-python setup.py sdist bdist_wheel 
+          python setup.py sdist bdist_wheel 
 <br>
 <br>
 Após completar a instalação, verifique se as pastas abaixo foram adicionadas ao projeto:
